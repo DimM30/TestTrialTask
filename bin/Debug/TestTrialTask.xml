@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TestTrialTask</name>
+    </assembly>
+    <members>
+        <member name="M:TestTrialTask.Form1.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            Кнопка старт
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TestTrialTask.Form1.Init">
+            <summary>
+            Запуск при старте программы
+            </summary>
+        </member>
+        <member name="M:TestTrialTask.Form1.GetSizeInForm">
+            <summary>
+            Получение и вывод размера БД
+            </summary>
+        </member>
+        <member name="M:TestTrialTask.Form1.Form1_Load(System.Object,System.EventArgs)">
+            <summary>
+            Обновление при запуске формы
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TestTrialTask.Form1.linkLabel1_LinkClicked(System.Object,System.Windows.Forms.LinkLabelLinkClickedEventArgs)">
+            <summary>
+            Кнопка перехода на гугл докс
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:TestTrialTask.Form1.components">
+            <summary>
+            Обязательная переменная конструктора.
+            </summary>
+        </member>
+        <member name="M:TestTrialTask.Form1.Dispose(System.Boolean)">
+            <summary>
+            Освободить все используемые ресурсы.
+            </summary>
+            <param name="disposing">истинно, если управляемый ресурс должен быть удален; иначе ложно.</param>
+        </member>
+        <member name="M:TestTrialTask.Form1.InitializeComponent">
+            <summary>
+            Требуемый метод для поддержки конструктора — не изменяйте 
+            содержимое этого метода с помощью редактора кода.
+            </summary>
+        </member>
+        <member name="T:TestTrialTask.JobPostgreSQL">
+            <summary>
+            Класс для работы с Postgre SQL
+            </summary>
+        </member>
+        <member name="M:TestTrialTask.JobPostgreSQL.GetSizeTablesAsync">
+            <summary>
+            Получение размера БД
+            </summary>
+        </member>
+        <member name="M:TestTrialTask.JobPostgreSQL.GetListTables">
+            <summary>
+            Получение списка таблиц из БД
+            </summary>
+        </member>
+        <member name="M:TestTrialTask.JobPostgreSQL.GetServersList">
+            <summary>
+            Чтение файла настроек web.config. Для подключение к Бд 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TestTrialTask.JobPostgreSQL.GetTable">
+            <summary>
+            Метод для соединения(запроса) к бд  и возрату листа с данными из БД
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:TestTrialTask.JobSpreadsheetTable.ClientSecret">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:TestTrialTask.JobSpreadsheetTable.ScopesShets">
+            <summary>
+            Масив прав для работы с API
+            </summary>
+        </member>
+        <member name="F:TestTrialTask.JobSpreadsheetTable.AppName">
+            <summary>
+            Имя файла api гугла
+            </summary>
+        </member>
+        <member name="F:TestTrialTask.JobSpreadsheetTable.SpreadsheetId">
+            <summary>
+            Индификтор таблицы 
+            </summary>
+        </member>
+        <member name="F:TestTrialTask.JobSpreadsheetTable.Range">
+            <summary>
+            Диапозон для получения с таблицы(колонка)
+            </summary>
+        </member>
+        <member name="M:TestTrialTask.JobSpreadsheetTable.testAsync">
+            <summary>
+            Тестовой инициализатор записи в гугл таблицу
+            </summary> 
+        </member>
+        <member name="M:TestTrialTask.JobSpreadsheetTable.CreateNewSheet(Google.Apis.Sheets.v4.SheetsService,System.String,System.String)">
+            <summary>
+            Создание новой таблицы
+            </summary>
+            <param name="service"></param>
+            <param name="sheetName"></param>
+            <param name="SpreadsheetId"></param>
+        </member>
+        <member name="M:TestTrialTask.JobSpreadsheetTable.InitStart">
+            <summary>
+            Метод инициализации 
+            </summary>
+        </member>
+        <member name="M:TestTrialTask.JobSpreadsheetTable.GetSheetCredential">
+            <summary>
+            Получаем учетные данные для работы с API таблиц
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TestTrialTask.JobSpreadsheetTable.GetServise(Google.Apis.Auth.OAuth2.UserCredential)">
+            <summary>
+            Метод получает экземпяр сервиса для работы с таблицой 
+            </summary>
+            <param name="credential"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TestTrialTask.JobSpreadsheetTable.FillSpreadsheet(Google.Apis.Sheets.v4.SheetsService,System.String,System.String[0:,0:])">
+            <summary>
+            Метод заполнения таблицы
+            </summary>
+            <param name="servise"></param>
+            <param name="SpreadsheetId"></param>
+            <param name="data"></param>
+        </member>
+        <member name="M:TestTrialTask.JobSpreadsheetTable.GetFirstCell(Google.Apis.Sheets.v4.SheetsService,System.String,System.String)">
+            <summary>
+            Получения данных со столбца
+            </summary>
+            <param name="servise"></param>
+            <param name="range"></param>
+            <param name="spreadsheetId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TestTrialTask.Program.Main">
+            <summary>
+            Главная точка входа для приложения.
+            </summary>
+        </member>
+        <member name="T:TestTrialTask.Properties.Resources">
+            <summary>
+              Класс ресурсов со строгим типом для поиска локализованных строк и пр.
+            </summary>
+        </member>
+        <member name="P:TestTrialTask.Properties.Resources.ResourceManager">
+            <summary>
+              Возврат кэшированного экземпляра ResourceManager, используемого этим классом.
+            </summary>
+        </member>
+        <member name="P:TestTrialTask.Properties.Resources.Culture">
+            <summary>
+              Переопределяет свойство CurrentUICulture текущего потока для всех
+              подстановки ресурсов с помощью этого класса ресурсов со строгим типом.
+            </summary>
+        </member>
+    </members>
+</doc>

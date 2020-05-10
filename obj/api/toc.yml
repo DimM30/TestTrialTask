@@ -1,0 +1,10 @@
+### YamlMime:TableOfContent
+- uid: TestTrialTask
+  name: TestTrialTask
+  items:
+  - uid: TestTrialTask.BL
+    name: BL
+  - uid: TestTrialTask.Form1
+    name: Form1
+  - uid: TestTrialTask.Form1.MyDelegate
+    name: Form1.MyDelegate

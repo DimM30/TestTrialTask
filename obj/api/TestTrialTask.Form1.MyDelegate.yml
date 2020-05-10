@@ -1,0 +1,38 @@
+### YamlMime:ManagedReference
+items:
+- uid: TestTrialTask.Form1.MyDelegate
+  commentId: T:TestTrialTask.Form1.MyDelegate
+  id: Form1.MyDelegate
+  parent: TestTrialTask
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Form1.MyDelegate
+  nameWithType: Form1.MyDelegate
+  fullName: TestTrialTask.Form1.MyDelegate
+  type: Delegate
+  source:
+    remote:
+      path: C:/Users/Dmytriy/source/repos/TestTrialTask/Form1.cs
+    id: MyDelegate
+    path: Form1.cs
+    startLine: 15
+  assemblies:
+  - TestTrialTask
+  namespace: TestTrialTask
+  syntax:
+    content: public delegate void MyDelegate();
+    content.vb: Public Delegate Sub MyDelegate
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: TestTrialTask
+  commentId: N:TestTrialTask
+  name: TestTrialTask
+  nameWithType: TestTrialTask
+  fullName: TestTrialTask

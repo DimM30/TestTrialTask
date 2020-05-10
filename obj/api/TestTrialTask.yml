@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: TestTrialTask
+  commentId: N:TestTrialTask
+  id: TestTrialTask
+  children:
+  - TestTrialTask.BL
+  - TestTrialTask.Form1
+  - TestTrialTask.Form1.MyDelegate
+  langs:
+  - csharp
+  - vb
+  name: TestTrialTask
+  nameWithType: TestTrialTask
+  fullName: TestTrialTask
+  type: Namespace
+  assemblies:
+  - TestTrialTask
+references:
+- uid: TestTrialTask.BL
+  commentId: T:TestTrialTask.BL
+  name: BL
+  nameWithType: BL
+  fullName: TestTrialTask.BL
+- uid: TestTrialTask.Form1
+  commentId: T:TestTrialTask.Form1
+  name: Form1
+  nameWithType: Form1
+  fullName: TestTrialTask.Form1
+- uid: TestTrialTask.Form1.MyDelegate
+  commentId: T:TestTrialTask.Form1.MyDelegate
+  name: Form1.MyDelegate
+  nameWithType: Form1.MyDelegate
+  fullName: TestTrialTask.Form1.MyDelegate
